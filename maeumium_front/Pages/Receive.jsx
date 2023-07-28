@@ -9,7 +9,7 @@ const ReceiveBackgrounds = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    background-image: url('../image/Joinbackground.png');
+    background-image: url('../image/JoinBackground.png');
 `;
 
 const ReceiveTitle = styled.div`

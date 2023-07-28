@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "GangwonEduAll";
+    font-weight: bold;
+    src: url("./강원교육모두+Bold.ttf");
+}
+
+@font-face {
+    font-family: "GangwonEduAll";
+    src: url("./강원교육모두+Light.ttf");
+}
+
+@font-face {
+    font-family: "GangwonEdusaeeum";
+    src: url("./강원교육새음.ttf");
+}

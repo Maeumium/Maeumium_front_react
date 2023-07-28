@@ -1,16 +1,20 @@
-// const Background = styled.div `
-//     width: 100%;
-//     height: 100vh;
-//     background-image: url();
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover;
-// `;
+import React from "react";
+import styled from "styled-components";
 
-// function Background ({children}) {
-//     return (
-//         <Background>
-//             {children}
-//         </Background>
-//     )
-// }
+const BackgroundImage = styled.div `
+    width: 390px;
+    height: 100vh;
+    background-image: url('../image/MainBackground.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+`;
+
+function Background ({children}) {
+    return (
+        <BackgroundImage>
+            {children}
+        </BackgroundImage>
+    )
+}
+export default Background;
